@@ -10,10 +10,9 @@
 AI Engineer • Backend Developer • FastAPI Enthusiast
 </p>
 
+<!-- Typing Animation -->
 <div align="center">
-
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=32&duration=4000&pause=1500&color=58A6FF&center=true&vCenter=true&width=900&lines=Welcome+to+my+GitHub+Profile;AI+Engineer+%7C+Backend+Developer;Building+Intelligent+Systems;Always+Learning+Something+New" />
-
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&lines=AI+Engineer;Backend+Developer;FastAPI+Developer;Building+Production+AI+Systems" />
 </div>
 
 <p align="center">
