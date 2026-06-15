@@ -1,38 +1,44 @@
 name: Generate Trophy Card
 
 on:
-schedule:
-- cron: "0 */12 * * *"
+  schedule:
+    - cron: "0 */12 * * *"
 
-workflow_dispatch:
+  workflow_dispatch:
 
-push:
-branches:
-- main
+  push:
+    branches:
+      - main
 
 permissions:
-contents: write
+  contents: write
 
 jobs:
-generate:
-runs-on: ubuntu-latest
+  generate:
+    runs-on: ubuntu-latest
 
-```
-steps:
-  - name: Generate trophy.svg
-    uses: Erik-Donath/github-profile-trophy@feature/generate-svg
-    with:
-      username: ${{ github.repository_owner }}
-      file: dist/trophy.svg
-      token: ${{ secrets.GITHUB_TOKEN }}
-      theme: dracula
-      max-rows: 1
+    steps:
+      - name: Generate trophy.svg
+        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        with:
+          username: ${{ github.repository_owner }}
+          file: dist/trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          theme: dracula
+          max-rows: 1
 
-  - name: Deploy trophy.svg
-    uses: crazy-max/ghaction-github-pages@v4
-    with:
-      target_branch: trophy-output
-      build_dir: dist
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
+      - name: Deploy trophy.svg
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: trophy-output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+:::
+
+After replacing the file:
+
+```bash
+git add .github/workflows/trophy.yml
+git commit -m "Fix trophy workflow formatting"
+git push
