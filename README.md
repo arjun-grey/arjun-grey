@@ -78,7 +78,7 @@ Dockerized FastAPI + PostgreSQL + Redis stack.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/arjun-grey/arjun-grey/trophy-output/trophy.svg"/>
+<img src="https://streak-stats.demolab.com?user=arjun-grey&theme=tokyonight"/>
 
 </div>
 
