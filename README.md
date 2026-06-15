@@ -1,10 +1,9 @@
 <h1 align="center">Harshit Gupta</h1>
 
 <div align="center">
-  <img
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&lines=AI+Engineer;Backend+Developer;FastAPI+%7C+Docker+%7C+PostgreSQL;Building+Production+AI+Systems"
-    alt="Typing SVG"
-  />
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=34&duration=3500&pause=1200&color=00F5FF&center=true&vCenter=true&width=1000&lines=Hello+World!+%F0%9F%91%8B;Welcome+to+my+Digital+Workspace;AI+Engineering+%7C+Backend+Systems;Turning+Ideas+Into+Production+Software" />
+
 </div>
 
 <p align="center">
