@@ -34,11 +34,3 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-:::
-
-After replacing the file:
-
-```bash
-git add .github/workflows/trophy.yml
-git commit -m "Fix trophy workflow formatting"
-git push
