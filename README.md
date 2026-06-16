@@ -66,8 +66,11 @@ Dockerized FastAPI + PostgreSQL + Redis stack.
 
 ## 📊 GitHub Activity
 
+
 <div align="center">
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=arjun-grey&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=arjun-grey&theme=tokyonight&show_icons=true&hide_border=true" alt="Harshit's GitHub Stats" />
+  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arjun-grey&theme=tokyonight&layout=compact&hide_border=true" alt="Top Languages" />
 </div>
 
 ---
