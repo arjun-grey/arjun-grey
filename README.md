@@ -67,9 +67,7 @@ Dockerized FastAPI + PostgreSQL + Redis stack.
 ## 📊 GitHub Activity
 
 <div align="center">
-
-<img src="https://streak-stats.demolab.com?user=arjun-grey&theme=tokyonight&hide_border=true"/>
-
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=arjun-grey&theme=tokyonight&hide_border=true"/>
 </div>
 
 ---
